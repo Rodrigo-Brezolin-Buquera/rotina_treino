@@ -19,7 +19,7 @@ const routines = [
     day: "Terça",
     cardio: "Elíptico",
     routine: "Costas",
-    extra:"Addominal",
+    extra:"Abdominal",
     asanas: ["Guerreiro", "Meia lua", "Tartaruga", "Pavão", "Escorpião", "Vela/Peixe"]
 
 },
@@ -35,7 +35,7 @@ const routines = [
     day: "Quinta",
     cardio: "Bike",
     routine: "Braço",
-    extra:"Addominal",
+    extra:"Abdominal",
     asanas: ["Surya Namaskar", "Meia lua","Vajrasana","Pavão","Cisne", "Vela/Peixe"]
 
 },
@@ -49,7 +49,7 @@ const routines = [
   { 
     day: "Sábado",
     cardio: "Corrida",
-    routine: "Addominal + Lombar",
+    routine: "Abdominal + Lombar",
     extra:"Luta",
     asanas: ["Natarajasana", "Gomukasana", "Lótus com torção", "Pavão", "Escorpião", "Vela/Peixe"]
 

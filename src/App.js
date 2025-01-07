@@ -1,5 +1,6 @@
 import { useState } from "react";
 import routines from "./routines";
+import { StyledH1, StyledH2, StyledMain, StyledP, StyledSection } from "./styled";
 
 const App = () => {
   const today = new Date().getDay();
@@ -8,29 +9,33 @@ const App = () => {
   const routine = routines[weekday];
 
   const asanas = routine.asanas.map((asana) => {
-    return <p key={asana}> {asana}</p>;
+    return <StyledP key={asana}> {asana}</StyledP>;
   });
 
   const TrainingSection = () => {
     return (
-      <section onClick={()=> setView("asanas")} >
-        <h1>{routine.day}</h1>
-        <h2>Cardio:</h2>
-        <p>{routine.cardio}</p>
-        <h2>Treino:</h2>
-        <p>{routine.routine}</p>
-        <h2>Adiconal:</h2>
-        <p>{routine.extra}</p>
-      </section>
+      <StyledSection onClick={()=> setView("asanas")} >
+        
+        <StyledH2>Cardio</StyledH2>
+        <StyledP>{routine.cardio}</StyledP>
+        <br/>
+        <br/>
+        <StyledH2>Treino</StyledH2>
+        <StyledP>{routine.routine}</StyledP>
+        <br/>
+        <br/>
+        <StyledH2>Extra</StyledH2>
+        <StyledP>{routine.extra}</StyledP>
+      </StyledSection>
     );
   };
 
   const AsanasSection = () => {
     return (
-      <section onClick={()=> setView("gym")}>
-        <h2>Asanas:</h2>
+      <StyledSection onClick={()=> setView("gym")}>
+        <StyledH2>Asanas</StyledH2>
         {asanas}
-      </section>
+      </StyledSection>
     );
   };
 
@@ -46,9 +51,10 @@ const App = () => {
   };
 
   return (
-    <main>
+    <StyledMain>
+      <StyledH1>{routine.day}</StyledH1>
       <ViewSelector />
-    </main>
+    </StyledMain>
   );
 };
 
