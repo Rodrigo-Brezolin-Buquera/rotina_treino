@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import routines from "./routines";
 
-function App() {
+const App = () => {
+  const today = new Date().getDay()
+  const [weekday, setWeekday] = useState(today)
+  const [view, setView] = useState("gym")
+
+  console.log(routines[weekday].day)
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+        aaaaaa
     </div>
   );
 }
