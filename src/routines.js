@@ -41,10 +41,10 @@ const routines = [
 },
   { 
     day: "Sexta",
-    cardio: "Corrida",
+    cardio: "Elíptico",
     routine: "Perna",
     extra:"Cardio",
-    asanas: ["Yoganidrasana", "Vajrasana","Oito ângulos","Hanumanasana", "Escorpião","Vela/Peixe"]
+    asanas: ["Maritiniasana", "Vajrasana","Oito ângulos", "Escorpião","Yoganidrasana","Vela/Peixe"]
 },
   { 
     day: "Sábado",
