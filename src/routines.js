@@ -2,7 +2,7 @@ const routines = [
   { 
     day: "Domingo",
     cardio: "Caminhada",
-    routine: "",
+    routine: "Fisioterapia",
     extra: "",
     asanas: ["Padahastasana", "Yoga Mudra", "Cobra/Cachorro", "Arco", "Torção", "Vela/Peixe"]
 
@@ -50,7 +50,7 @@ const routines = [
     day: "Sábado",
     cardio: "Corrida",
     routine: "Abdominal + Lombar",
-    extra:"Luta",
+    extra:"Yoga",
     asanas: ["Natarajasana", "Gomukasana", "Lótus com torção", "Pavão", "Escorpião", "Vela/Peixe"]
 
 },
