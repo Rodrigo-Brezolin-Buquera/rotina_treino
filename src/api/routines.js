@@ -2,7 +2,7 @@ const routines = [
   { 
     day: "Domingo",
     cardio: "Caminhada",
-    routine: "Fisioterapia",
+    training: "Fisioterapia",
     extra: "",
     asanas: ["Padahastasana", "Yoga Mudra", "Cobra/Cachorro", "Arco", "Torção", "Vela/Peixe"]
 
@@ -10,7 +10,7 @@ const routines = [
   { 
     day: "Segunda",
     cardio: "Bike",
-    routine: "Perna",
+    training: "Perna",
     extra: "Cardio",
     asanas: ["Janosirsasana torção", "Vajrasana", "Oito ângulos", "Hanumanasana", "Cisne", "Vela/Peixe"]
 
@@ -18,7 +18,7 @@ const routines = [
   { 
     day: "Terça",
     cardio: "Elíptico",
-    routine: "Costas",
+    training: "Costas",
     extra:"Abdominal",
     asanas: ["Guerreiro", "Meia lua", "Tartaruga", "Pavão", "Escorpião", "Vela/Peixe"]
 
@@ -26,7 +26,7 @@ const routines = [
   { 
     day: "Quarta",
     cardio: "Esteira",
-    routine: "Peito",
+    training: "Peito",
     extra:"Cardio",
     asanas: ["Crescente", "Arco", "Natarajasana", "Oito ângulos","Chakrasana", "Vela/Peixe"]
 
@@ -34,7 +34,7 @@ const routines = [
   { 
     day: "Quinta",
     cardio: "Bike",
-    routine: "Braço",
+    training: "Braço",
     extra:"Abdominal",
     asanas: ["Surya Namaskar", "Meia lua","Vajrasana","Pavão","Cisne", "Vela/Peixe"]
 
@@ -42,14 +42,14 @@ const routines = [
   { 
     day: "Sexta",
     cardio: "Elíptico",
-    routine: "Perna",
+    training: "Perna",
     extra:"Cardio",
     asanas: ["Maritiniasana", "Vajrasana","Oito ângulos", "Escorpião","Yoganidrasana","Vela/Peixe"]
 },
   { 
     day: "Sábado",
     cardio: "Corrida",
-    routine: "Abdominal + Lombar",
+    training: "Abdominal + Lombar",
     extra:"Yoga",
     asanas: ["Natarajasana", "Gomukasana", "Lótus com torção", "Pavão", "Escorpião", "Vela/Peixe"]
 
