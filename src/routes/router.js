@@ -8,8 +8,8 @@ export const Router = () => {
         <BrowserRouter>
                 <Routes>
                     <Route path="/" element={<HomePage />} />
-                    <Route path="/user/:id" element={<WeightPage />} />
-                    <Route path="/admin" element={<BioimpedancePage />} />             
+                    <Route path="/weight" element={<WeightPage />} />
+                    <Route path="/bioimpedance" element={<BioimpedancePage />} />             
                 </Routes>
         </BrowserRouter>
     )
