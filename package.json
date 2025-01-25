@@ -1,6 +1,7 @@
 {
   "name": "trainning-routine",
   "version": "0.1.0",
+  "homepage": "https://Rodrigo-Brezolin-Buquera.github.io/rotina_treino",
   "private": true,
   "dependencies": {
     "cra-template": "1.2.0",
@@ -11,6 +12,8 @@
     "styled-components": "^6.1.14"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -33,5 +36,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
