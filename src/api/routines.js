@@ -51,7 +51,7 @@ const routines = [
     cardio: "Corrida",
     training: "Abdominal + Lombar",
     extra:"Yoga",
-    asanas: ["Natarajasana", "Gomukasana", "Lótus com torção", "Pavão", "Escorpião", "Vela/Peixe"]
+    asanas: ["Guerreiro", "Natarajasana", "Gomukasana", "Cobra", "Lótus com torção", "Pavão", "Escorpião", "Vela/Peixe"]
 
 },
 ];
